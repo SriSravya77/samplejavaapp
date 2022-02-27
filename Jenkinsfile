@@ -4,7 +4,7 @@ pipeline {
         stage('compile') {
 	   steps {
                 echo 'compiling..'
-		git 'https://github.com/shubhsharm/samplejavaapp'
+		git 'https://github.com/lernwithshubh/samplejavaapp'
 		sh script: '/opt/apache-maven-3.8.4/bin/mvn compile'
            }
         }
